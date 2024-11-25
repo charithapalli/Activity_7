@@ -1,0 +1,55 @@
+.axisX{
+    font-size: 30pt;
+}
+.axisY{
+    font-size: 30pt;
+}
+.axis{
+    font-size: 20pt;
+}
+circle{
+    fill-opacity: .7;
+}
+.title{
+    font-size: 25pt;
+    font-family: sans-serif;
+    text-anchor: middle;
+    color: black;
+    z-index: 1001;
+}
+.selected {
+    stroke: black;
+    stroke-width: 2;
+}
+
+.label{
+    font-size: 40pt;
+    font-family: sans-serif;
+    text-anchor: middle;
+    z-index: 1001;
+}
+.bars{
+    fill-opacity: .7;
+}
+.legend{
+    text-anchor: start;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+.selected{
+    stroke: black;
+    stroke-width: 3px;
+    fill-opacity: 1;
+}
+.legendSelect{
+    fill-opacity: .05;
+}
+.hidden {
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.selected {
+    stroke: black;
+    stroke-width: 2px;
+}
